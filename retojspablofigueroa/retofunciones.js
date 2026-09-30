@@ -9,3 +9,8 @@ function obtenerIniciales(nombreCompleto) {
   .map(palabra => palabra[0].toUpperCase())
   .join('');
 }
+console.log(obtenerIniciales("pablo gabriel figueroa calderon "));
+console.log(obtenerIniciales(" son supersayayin goku "));
+console.log(obtenerIniciales("palito"));
+console.log(obtenerIniciales(123456789098765432));
+console.log(obtenerIniciales("    "));
