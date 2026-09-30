@@ -3,4 +3,9 @@ function obtenerIniciales(nombreCompleto) {
     return "Entrada inválida";
   }
 
-
+  return nombreCompleto
+  .trim()
+  .split(/\s+/)
+  .map(palabra => palabra[0].toUpperCase())
+  .join('');
+}
